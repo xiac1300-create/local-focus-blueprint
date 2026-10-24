@@ -1,0 +1,4 @@
+interface:
+  display_name: "安卓本地专注工具重建"
+  short_description: "按可检查的设计重建安卓用时统计与自愿应用锁，明确权限、数据去向和验证边界"
+  default_prompt: "请使用 $build-focus-app，为我分阶段重建安卓本地用时与专注工具，先说明权限和验收方法。"

@@ -6,10 +6,10 @@
 
 1. 登录自己的 GitHub，创建一个新仓库，例如 `local-focus-blueprint`。可以先设为 Private，检查内容后再决定是否公开。
 2. 新建仓库时添加一个临时 README，进入仓库后选择 **Add file → Upload files**。
-3. 把本目录里的 `README.md`、`PUBLISHING.md`、`skills/` 文件夹拖进去，确认目录层级被保留。这里只需这几份文本文件，不必上传整个 ZIP。
+3. 把本目录里的 `README.md`、`PUBLISHING.md`、`LICENSE`、`skills/` 文件夹拖进去，确认目录层级被保留。这里只需这几份文本文件，不必上传整个 ZIP。
 4. 手动添加本目录的 `.gitignore`，或在文件选择器显示隐藏文件后一起上传；网页上传不会按 `.gitignore` 帮你筛选文件。
 5. 查看待提交文件列表，确认没有个人数据、密钥或安装包，再提交。
-6. 打开仓库首页检查 README 的链接、Skill 的引用文件及内容。决定发布许可，最后再选择是否改为 Public。
+6. 打开仓库首页检查 README 的链接、Skill 的引用文件及内容。本项目采用 MIT；复制分发时保留版权与许可说明，最后再选择是否改为 Public。
 
 GitHub 当前网页流程见官方说明：[创建仓库](https://docs.github.com/en/get-started/start-your-journey/creating-a-repository-for-your-project-on-github)、[上传文件](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository)。按钮名称可能随界面语言不同。
 
@@ -19,7 +19,7 @@ GitHub 当前网页流程见官方说明：[创建仓库](https://docs.github.co
 
 ```text
 git init
-git add README.md PUBLISHING.md .gitignore skills
+git add README.md PUBLISHING.md LICENSE .gitignore skills
 git diff --cached --stat
 git diff --cached
 git commit -m "Add local focus app rebuild blueprint"

@@ -26,6 +26,6 @@ git commit -m "Add local focus app rebuild blueprint"
 gh repo create local-focus-blueprint --private --source=. --push
 ```
 
-这些命令仅供发布者自行执行，本草案准备过程没有执行创建远程仓库或推送。GitHub CLI 需要发布者自己的登录授权；不要把令牌、密码或验证码发给 AI。
+这些命令供发布者在自己的账号下执行。GitHub CLI 需要发布者自己的登录授权；不要把令牌、密码或验证码发给 AI。
 
 公开后可以把仓库链接发给别人，并说明：先看 README，再让自己的 AI 阅读 Skill 和引用文档；生成的应用由读者自行审查、构建和授权。
